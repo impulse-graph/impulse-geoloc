@@ -1,0 +1,24 @@
+# Impulse Graph Engine - Data Hygiene Policy (Rule 3.6)
+# Never commit heavy dataset edge lists, archives, or binary snapshots
+datasets/
+*.imps
+*.impb
+
+# Maven & Java build outputs
+target/
+*.class
+*.jar
+*.log
+
+# Python virtual environments & caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# IDE & OS files
+.idea/
+*.iml
+.vscode/
+.DS_Store
